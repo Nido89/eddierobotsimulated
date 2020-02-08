@@ -1,0 +1,1 @@
+msbuild -v:m "samples\RoboticsTutorials\Tutorial4\CSharp\RoboticsTutorial4.csproj"

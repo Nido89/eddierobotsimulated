@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DriveInTriangle.Y2013.M08.Proxy</name>
+    </assembly>
+    <members>
+        <member name="M:Robotics.DriveInTriangle.Diagram.Proxy.ActionRequest.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current ActionRequest to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.Diagram.Proxy.ActionRequest.Clone">
+             <summary>
+            Clones ActionRequest
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.Diagram.Proxy.ActionRequest.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current ActionRequest to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.Diagram.Proxy.ActionRequest.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes ActionRequest
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized ActionRequest</returns>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.Diagram.Proxy.ActionResponse.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current ActionResponse to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.Diagram.Proxy.ActionResponse.Clone">
+             <summary>
+            Clones ActionResponse
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.Diagram.Proxy.ActionResponse.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current ActionResponse to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.Diagram.Proxy.ActionResponse.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes ActionResponse
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized ActionResponse</returns>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.Diagram.Proxy.DiagramState.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current DiagramState to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.Diagram.Proxy.DiagramState.Clone">
+             <summary>
+            Clones DiagramState
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.Diagram.Proxy.DiagramState.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current DiagramState to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.Diagram.Proxy.DiagramState.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes DiagramState
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized DiagramState</returns>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.Diagram.Proxy.Contract.CreateService(Microsoft.Dss.Services.Constructor.ConstructorPort,System.String,Microsoft.Dss.ServiceModel.Dssp.PartnerType[])">
+            <summary>Creates a new instance of the service.</summary>
+            <param name="constructorServicePort">Service constructor port</param>
+            <param name="service">service path</param>
+            <param name="partners">the partners of the service instance</param>
+            <returns>create service response port</returns>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.Diagram.Proxy.Contract.CreateService(Microsoft.Dss.Services.Constructor.ConstructorPort,Microsoft.Dss.ServiceModel.Dssp.PartnerType[])">
+            <summary>Creates a new instance of the service.</summary>
+            <param name="constructorServicePort">Service constructor port</param>
+            <param name="partners">the partners of the service instance</param>
+            <returns>create service response port</returns>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.DriveOperations.Proxy.DriveRequest.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current DriveRequest to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.DriveOperations.Proxy.DriveRequest.Clone">
+             <summary>
+            Clones DriveRequest
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.DriveOperations.Proxy.DriveRequest.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current DriveRequest to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.DriveOperations.Proxy.DriveRequest.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes DriveRequest
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized DriveRequest</returns>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.DriveOperations.Proxy.DriveResponse.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current DriveResponse to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.DriveOperations.Proxy.DriveResponse.Clone">
+             <summary>
+            Clones DriveResponse
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.DriveOperations.Proxy.DriveResponse.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current DriveResponse to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.DriveOperations.Proxy.DriveResponse.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes DriveResponse
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized DriveResponse</returns>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.DriveOperations.Proxy.RotateRequest.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current RotateRequest to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.DriveOperations.Proxy.RotateRequest.Clone">
+             <summary>
+            Clones RotateRequest
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.DriveOperations.Proxy.RotateRequest.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current RotateRequest to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.DriveOperations.Proxy.RotateRequest.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes RotateRequest
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized RotateRequest</returns>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.DriveOperations.Proxy.RotateResponse.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current RotateResponse to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.DriveOperations.Proxy.RotateResponse.Clone">
+             <summary>
+            Clones RotateResponse
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.DriveOperations.Proxy.RotateResponse.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current RotateResponse to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.DriveOperations.Proxy.RotateResponse.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes RotateResponse
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized RotateResponse</returns>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.DriveOperations.Proxy.DriveOperationsState.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current DriveOperationsState to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.DriveOperations.Proxy.DriveOperationsState.Clone">
+             <summary>
+            Clones DriveOperationsState
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.DriveOperations.Proxy.DriveOperationsState.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current DriveOperationsState to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.DriveOperations.Proxy.DriveOperationsState.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes DriveOperationsState
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized DriveOperationsState</returns>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.DriveOperations.Proxy.Contract.CreateService(Microsoft.Dss.Services.Constructor.ConstructorPort,System.String,Microsoft.Dss.ServiceModel.Dssp.PartnerType[])">
+            <summary>Creates a new instance of the service.</summary>
+            <param name="constructorServicePort">Service constructor port</param>
+            <param name="service">service path</param>
+            <param name="partners">the partners of the service instance</param>
+            <returns>create service response port</returns>
+        </member>
+        <member name="M:Robotics.DriveInTriangle.DriveOperations.Proxy.Contract.CreateService(Microsoft.Dss.Services.Constructor.ConstructorPort,Microsoft.Dss.ServiceModel.Dssp.PartnerType[])">
+            <summary>Creates a new instance of the service.</summary>
+            <param name="constructorServicePort">Service constructor port</param>
+            <param name="partners">the partners of the service instance</param>
+            <returns>create service response port</returns>
+        </member>
+    </members>
+</doc>

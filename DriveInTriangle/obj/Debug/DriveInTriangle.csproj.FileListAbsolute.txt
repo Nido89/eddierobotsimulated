@@ -1,0 +1,3 @@
+C:\Eddie_Robot\DriveInTriangle\obj\Debug\DriveInTriangle.csprojResolveAssemblyReference.cache
+C:\Eddie_Robot\DriveInTriangle\obj\Debug\DriveInTriangle.Y2013.M08.dll
+C:\Eddie_Robot\DriveInTriangle\obj\Debug\DriveInTriangle.Y2013.M08.pdb

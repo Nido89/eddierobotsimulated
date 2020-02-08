@@ -1,0 +1,5 @@
+C:\Users\Jalalians\Microsoft Robotics Dev Studio 4\bin\AutonomusDrive.Y2013.M08.dll
+C:\Users\Jalalians\Microsoft Robotics Dev Studio 4\bin\AutonomusDrive.Y2013.M08.pdb
+C:\Users\Jalalians\Desktop\Eddie Projects\New\Services\AutonomusDrive\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jalalians\Desktop\Eddie Projects\New\Services\AutonomusDrive\obj\Debug\AutonomusDrive.Y2013.M08.dll
+C:\Users\Jalalians\Desktop\Eddie Projects\New\Services\AutonomusDrive\obj\Debug\AutonomusDrive.Y2013.M08.pdb

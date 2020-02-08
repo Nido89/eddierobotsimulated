@@ -1,0 +1,272 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Follow_Me.Y2012.M12.Proxy</name>
+    </assembly>
+    <members>
+        <member name="M:Robotics.Follow_Me.Gesture_Recognition.Proxy.ActionRequest.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current ActionRequest to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:Robotics.Follow_Me.Gesture_Recognition.Proxy.ActionRequest.Clone">
+             <summary>
+            Clones ActionRequest
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:Robotics.Follow_Me.Gesture_Recognition.Proxy.ActionRequest.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current ActionRequest to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:Robotics.Follow_Me.Gesture_Recognition.Proxy.ActionRequest.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes ActionRequest
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized ActionRequest</returns>
+        </member>
+        <member name="M:Robotics.Follow_Me.Gesture_Recognition.Proxy.ActionResponse.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current ActionResponse to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:Robotics.Follow_Me.Gesture_Recognition.Proxy.ActionResponse.Clone">
+             <summary>
+            Clones ActionResponse
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:Robotics.Follow_Me.Gesture_Recognition.Proxy.ActionResponse.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current ActionResponse to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:Robotics.Follow_Me.Gesture_Recognition.Proxy.ActionResponse.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes ActionResponse
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized ActionResponse</returns>
+        </member>
+        <member name="M:Robotics.Follow_Me.Gesture_Recognition.Proxy.Gesture_RecognitionState.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current Gesture_RecognitionState to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:Robotics.Follow_Me.Gesture_Recognition.Proxy.Gesture_RecognitionState.Clone">
+             <summary>
+            Clones Gesture_RecognitionState
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:Robotics.Follow_Me.Gesture_Recognition.Proxy.Gesture_RecognitionState.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current Gesture_RecognitionState to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:Robotics.Follow_Me.Gesture_Recognition.Proxy.Gesture_RecognitionState.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes Gesture_RecognitionState
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized Gesture_RecognitionState</returns>
+        </member>
+        <member name="M:Robotics.Follow_Me.Gesture_Recognition.Proxy.Contract.CreateService(Microsoft.Dss.Services.Constructor.ConstructorPort,System.String,Microsoft.Dss.ServiceModel.Dssp.PartnerType[])">
+            <summary>Creates a new instance of the service.</summary>
+            <param name="constructorServicePort">Service constructor port</param>
+            <param name="service">service path</param>
+            <param name="partners">the partners of the service instance</param>
+            <returns>create service response port</returns>
+        </member>
+        <member name="M:Robotics.Follow_Me.Gesture_Recognition.Proxy.Contract.CreateService(Microsoft.Dss.Services.Constructor.ConstructorPort,Microsoft.Dss.ServiceModel.Dssp.PartnerType[])">
+            <summary>Creates a new instance of the service.</summary>
+            <param name="constructorServicePort">Service constructor port</param>
+            <param name="partners">the partners of the service instance</param>
+            <returns>create service response port</returns>
+        </member>
+        <member name="M:Robotics.Follow_Me.Diagram.Proxy.ActionRequest.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current ActionRequest to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:Robotics.Follow_Me.Diagram.Proxy.ActionRequest.Clone">
+             <summary>
+            Clones ActionRequest
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:Robotics.Follow_Me.Diagram.Proxy.ActionRequest.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current ActionRequest to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:Robotics.Follow_Me.Diagram.Proxy.ActionRequest.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes ActionRequest
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized ActionRequest</returns>
+        </member>
+        <member name="M:Robotics.Follow_Me.Diagram.Proxy.ActionResponse.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current ActionResponse to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:Robotics.Follow_Me.Diagram.Proxy.ActionResponse.Clone">
+             <summary>
+            Clones ActionResponse
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:Robotics.Follow_Me.Diagram.Proxy.ActionResponse.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current ActionResponse to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:Robotics.Follow_Me.Diagram.Proxy.ActionResponse.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes ActionResponse
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized ActionResponse</returns>
+        </member>
+        <member name="M:Robotics.Follow_Me.Diagram.Proxy.DiagramState.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current DiagramState to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:Robotics.Follow_Me.Diagram.Proxy.DiagramState.Clone">
+             <summary>
+            Clones DiagramState
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:Robotics.Follow_Me.Diagram.Proxy.DiagramState.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current DiagramState to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:Robotics.Follow_Me.Diagram.Proxy.DiagramState.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes DiagramState
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized DiagramState</returns>
+        </member>
+        <member name="M:Robotics.Follow_Me.Diagram.Proxy.Contract.CreateService(Microsoft.Dss.Services.Constructor.ConstructorPort,System.String,Microsoft.Dss.ServiceModel.Dssp.PartnerType[])">
+            <summary>Creates a new instance of the service.</summary>
+            <param name="constructorServicePort">Service constructor port</param>
+            <param name="service">service path</param>
+            <param name="partners">the partners of the service instance</param>
+            <returns>create service response port</returns>
+        </member>
+        <member name="M:Robotics.Follow_Me.Diagram.Proxy.Contract.CreateService(Microsoft.Dss.Services.Constructor.ConstructorPort,Microsoft.Dss.ServiceModel.Dssp.PartnerType[])">
+            <summary>Creates a new instance of the service.</summary>
+            <param name="constructorServicePort">Service constructor port</param>
+            <param name="partners">the partners of the service instance</param>
+            <returns>create service response port</returns>
+        </member>
+        <member name="M:Robotics.Follow_Me.EddiDrive.Proxy.ActionRequest.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current ActionRequest to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:Robotics.Follow_Me.EddiDrive.Proxy.ActionRequest.Clone">
+             <summary>
+            Clones ActionRequest
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:Robotics.Follow_Me.EddiDrive.Proxy.ActionRequest.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current ActionRequest to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:Robotics.Follow_Me.EddiDrive.Proxy.ActionRequest.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes ActionRequest
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized ActionRequest</returns>
+        </member>
+        <member name="M:Robotics.Follow_Me.EddiDrive.Proxy.ActionResponse.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current ActionResponse to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:Robotics.Follow_Me.EddiDrive.Proxy.ActionResponse.Clone">
+             <summary>
+            Clones ActionResponse
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:Robotics.Follow_Me.EddiDrive.Proxy.ActionResponse.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current ActionResponse to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:Robotics.Follow_Me.EddiDrive.Proxy.ActionResponse.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes ActionResponse
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized ActionResponse</returns>
+        </member>
+        <member name="M:Robotics.Follow_Me.EddiDrive.Proxy.EddiDriveState.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current EddiDriveState to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:Robotics.Follow_Me.EddiDrive.Proxy.EddiDriveState.Clone">
+             <summary>
+            Clones EddiDriveState
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:Robotics.Follow_Me.EddiDrive.Proxy.EddiDriveState.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current EddiDriveState to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:Robotics.Follow_Me.EddiDrive.Proxy.EddiDriveState.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes EddiDriveState
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized EddiDriveState</returns>
+        </member>
+        <member name="M:Robotics.Follow_Me.EddiDrive.Proxy.Contract.CreateService(Microsoft.Dss.Services.Constructor.ConstructorPort,System.String,Microsoft.Dss.ServiceModel.Dssp.PartnerType[])">
+            <summary>Creates a new instance of the service.</summary>
+            <param name="constructorServicePort">Service constructor port</param>
+            <param name="service">service path</param>
+            <param name="partners">the partners of the service instance</param>
+            <returns>create service response port</returns>
+        </member>
+        <member name="M:Robotics.Follow_Me.EddiDrive.Proxy.Contract.CreateService(Microsoft.Dss.Services.Constructor.ConstructorPort,Microsoft.Dss.ServiceModel.Dssp.PartnerType[])">
+            <summary>Creates a new instance of the service.</summary>
+            <param name="constructorServicePort">Service constructor port</param>
+            <param name="partners">the partners of the service instance</param>
+            <returns>create service response port</returns>
+        </member>
+    </members>
+</doc>

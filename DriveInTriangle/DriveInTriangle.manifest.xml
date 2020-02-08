@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<!--This file was created with the Microsoft Visual Programming Language.-->
+<Manifest xmlns:diagram="http://schemas.microsoft.com/2013/08/driveintriangle/diagram.html" xmlns:driveoperations="http://schemas.microsoft.com/2013/08/driveintriangle/driveoperations.html" xmlns:simulateddifferentialdrive="http://schemas.microsoft.com/robotics/simulation/services/2006/05/simulateddifferentialdrive.html" xmlns:waitfordrivecompletion="http://schemas.microsoft.com/robotics/2008/09/waitfordrivecompletion.html" xmlns:this="urn:uuid:d053fe37-af7e-4d61-9e73-2f5312e79642" xmlns:dssp="http://schemas.microsoft.com/xw/2004/10/dssp.html" xmlns:simulatedbumper="http://schemas.microsoft.com/robotics/simulation/services/2006/05/simulatedbumper.html" xmlns:simulation="http://schemas.microsoft.com/robotics/2006/04/simulation.html" xmlns:dialog="http://schemas.microsoft.com/robotics/2006/08/dialog.html" xmlns:simulationengine="http://schemas.microsoft.com/robotics/2006/04/simulationengine.html" xmlns="http://schemas.microsoft.com/xw/2004/10/manifest.html">
+  <CreateServiceList>
+    <ServiceRecordType>
+      <dssp:Contract>http://schemas.microsoft.com/robotics/2006/04/simulationengine.html</dssp:Contract>
+      <dssp:AliasList />
+      <dssp:PartnerList>
+        <dssp:Partner>
+          <dssp:Contract>http://schemas.microsoft.com/robotics/2006/04/simulationengine.html</dssp:Contract>
+          <dssp:Service>irobot.create.simulation (irobot.create.simulation.manifest).xml</dssp:Service>
+          <dssp:AliasList />
+          <dssp:PartnerList />
+          <dssp:Name>dssp:StateService</dssp:Name>
+        </dssp:Partner>
+      </dssp:PartnerList>
+      <Name>this:simulationengine</Name>
+    </ServiceRecordType>
+    <ServiceRecordType>
+      <dssp:Contract>http://schemas.microsoft.com/robotics/simulation/services/2006/05/simulateddifferentialdrive.html</dssp:Contract>
+      <dssp:AliasList />
+      <dssp:PartnerList>
+        <dssp:Partner>
+          <dssp:Service>http://localhost/IRobotCreateMotorBase</dssp:Service>
+          <dssp:AliasList />
+          <dssp:PartnerList />
+          <dssp:Name>simulation:Entity</dssp:Name>
+        </dssp:Partner>
+      </dssp:PartnerList>
+      <Name>this:simulateddifferentialdrive</Name>
+    </ServiceRecordType>
+    <ServiceRecordType>
+      <dssp:Contract>http://schemas.microsoft.com/robotics/simulation/services/2006/05/simulatedbumper.html</dssp:Contract>
+      <dssp:AliasList />
+      <dssp:PartnerList>
+        <dssp:Partner>
+          <dssp:Service>http://localhost/IRobotCreateBumperLeft</dssp:Service>
+          <dssp:AliasList />
+          <dssp:PartnerList />
+          <dssp:Name>simulation:Entity</dssp:Name>
+        </dssp:Partner>
+      </dssp:PartnerList>
+      <Name>this:simulatedbumper</Name>
+    </ServiceRecordType>
+    <ServiceRecordType>
+      <dssp:Contract>http://schemas.microsoft.com/robotics/simulation/services/2006/05/simulatedbumper.html</dssp:Contract>
+      <dssp:AliasList />
+      <dssp:PartnerList>
+        <dssp:Partner>
+          <dssp:Service>http://localhost/IRobotCreateBumperRight</dssp:Service>
+          <dssp:AliasList />
+          <dssp:PartnerList />
+          <dssp:Name>simulation:Entity</dssp:Name>
+        </dssp:Partner>
+      </dssp:PartnerList>
+      <Name>this:simulatedbumper1</Name>
+    </ServiceRecordType>
+    <ServiceRecordType>
+      <dssp:Contract>http://schemas.microsoft.com/2013/08/driveintriangle/diagram.html</dssp:Contract>
+      <dssp:PartnerList>
+        <dssp:Partner>
+          <dssp:Contract>http://schemas.microsoft.com/robotics/2006/08/dialog.html</dssp:Contract>
+          <dssp:PartnerList />
+          <dssp:Name>diagram:SimpleDialog</dssp:Name>
+          <dssp:ServiceName>this:SimpleDialog</dssp:ServiceName>
+        </dssp:Partner>
+        <dssp:Partner>
+          <dssp:Contract>http://schemas.microsoft.com/2013/08/driveintriangle/driveoperations.html</dssp:Contract>
+          <dssp:PartnerList />
+          <dssp:Name>diagram:DriveOperations</dssp:Name>
+          <dssp:ServiceName>this:DriveOperations</dssp:ServiceName>
+        </dssp:Partner>
+        <dssp:Partner>
+          <dssp:Contract>http://schemas.microsoft.com/robotics/2008/09/waitfordrivecompletion.html</dssp:Contract>
+          <dssp:PartnerList />
+          <dssp:Name>diagram:WaitForDriveCompletion</dssp:Name>
+          <dssp:ServiceName>this:WaitForDriveCompletion</dssp:ServiceName>
+        </dssp:Partner>
+      </dssp:PartnerList>
+      <Name>this:Diagram</Name>
+    </ServiceRecordType>
+    <ServiceRecordType>
+      <dssp:Contract>http://schemas.microsoft.com/robotics/2008/09/waitfordrivecompletion.html</dssp:Contract>
+      <dssp:PartnerList />
+      <Name>this:WaitForDriveCompletion</Name>
+    </ServiceRecordType>
+    <ServiceRecordType>
+      <dssp:Contract>http://schemas.microsoft.com/robotics/2006/08/dialog.html</dssp:Contract>
+      <dssp:PartnerList />
+      <Name>this:SimpleDialog</Name>
+    </ServiceRecordType>
+    <ServiceRecordType>
+      <dssp:Contract>http://schemas.microsoft.com/2013/08/driveintriangle/driveoperations.html</dssp:Contract>
+      <dssp:PartnerList>
+        <dssp:Partner>
+          <dssp:Contract>http://schemas.microsoft.com/robotics/2006/05/drive.html</dssp:Contract>
+          <dssp:PartnerList />
+          <dssp:Name>driveoperations:GenericDifferentialDrive</dssp:Name>
+          <dssp:ServiceName>this:simulateddifferentialdrive</dssp:ServiceName>
+        </dssp:Partner>
+        <dssp:Partner>
+          <dssp:Contract>http://schemas.microsoft.com/robotics/2008/09/waitfordrivecompletion.html</dssp:Contract>
+          <dssp:PartnerList />
+          <dssp:Name>driveoperations:WaitForDriveCompletion</dssp:Name>
+          <dssp:ServiceName>this:WaitForDriveCompletion</dssp:ServiceName>
+        </dssp:Partner>
+      </dssp:PartnerList>
+      <Name>this:DriveOperations</Name>
+    </ServiceRecordType>
+  </CreateServiceList>
+</Manifest>
